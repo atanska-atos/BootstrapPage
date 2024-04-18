@@ -1,8 +1,64 @@
 .svg-container {
-    width: 100px; /* Set the width of the SVG container */
-    height: 50px; /* Set the height of the SVG container */
-    background-image: url('logo.png'); /* Set the PNG image as the background */
-    background-size: cover; /* Adjust the background size */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    width: 180px;
+    height: 150px;
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: 'Cinzel';
+    src: url('\\fonts\\cinzel\\Cinzel-VariableFont_wght.ttf') format('ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cinzel-font {
+    font-family: 'Cinzel', serif;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #F1D410;
+    --bs-btn-border-color: #F1D410;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #FFEA5F;
+    --bs-btn-hover-border-color: #FFEA5F;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F1D410;
+    --bs-btn-active-border-color: #F1D410;
+    --bs-btn-disabled-color: #F1D410;
+    --bs-btn-disabled-border-color: #F1D410;
+    font-family: 'Georgia', serif;
+}
+
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #F1D410;
+    --bs-btn-border-color: #F1D410;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #FFEA5F;
+    --bs-btn-hover-border-color: #FFEA5F;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #F1D410;
+    --bs-btn-active-border-color: #F1D410;
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #F1D410;
+    --bs-btn-disabled-border-color: #F1D410;
+    font-family: 'Georgia', serif;
+}
+
+.nav-link {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-color: #fff;
+    --bs-nav-tabs-link-active-bg: #1A4682;
+    --bs-nav-tabs-link-active-border-color: #fff;
+    --bs-nav-tabs-border-color: #1A4682;
+}
+.nav {
+    --bs-nav-link-color:#fff;
+    --bs-nav-link-hover-color: #fff;
 }
