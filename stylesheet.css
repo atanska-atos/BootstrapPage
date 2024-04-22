@@ -1,7 +1,7 @@
 .svg-container {
     width: 180px;
     height: 150px;
-    background-image: url('logo.png');
+    background-image: url('images/logo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,4 +61,60 @@
 .nav {
     --bs-nav-link-color:#fff;
     --bs-nav-link-hover-color: #fff;
+}
+#carouselExampleControls {
+    width: 100%;
+    
+}
+
+body {
+    background-color: #13325B;
+}
+
+.description-slide {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    font-family: 'Georgia', serif;
+}
+
+.articles {
+    color: #fff;
+}
+
+
+
+.footer-text {
+    color:#fff;
+}
+
+.img-container {
+    height: 380.14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.text-justify {
+    text-align: justify;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: #fff;
+    border: 0;
+    opacity: 0.25;
+}
+
+.panel-footer.panel-custom {
+    background: red;
+    color: white;
+}
+
+.article-text {
+    font-family: 'Georgia', serif;
+}
+
+.bg-primary {
+    background-color: #13325B;
 }
