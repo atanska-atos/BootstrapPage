@@ -116,5 +116,14 @@ hr {
 }
 
 .bg-primary {
-    background-color: #13325B;
+    background-color: #13325B !important;
+}
+
+.border-danger {
+    border-color: #fff !important;
+}
+
+.table {
+    --bs-table-bg: #13325B;
+    --bs-table-color: #fff;
 }
